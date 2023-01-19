@@ -1,0 +1,60 @@
+.parent-container {
+  padding: 30px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nested-container {
+  display: flex;
+}
+
+.field-space {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 30%;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-field {
+  width: 30%;
+}
+
+.margin-l{
+  margin-left:10px;
+}
+
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  margin-left: 10px;
+}
+
+example-chip-list {
+  width: 100%;
+}
+
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: white;
+}
+
+::ng-deep
+  .mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined)
+  .mat-mdc-form-field-infix {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  background-color: white;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  background-color: white;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: white;
+}

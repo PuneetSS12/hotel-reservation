@@ -1,0 +1,30 @@
+.search-bar {
+  display: flex;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.search-header-text {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: white;
+}
+
+::ng-deep
+  .mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined)
+  .mat-mdc-form-field-infix {
+  padding-top: 24px;
+  padding-bottom: 8px;
+  background-color: white;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  background-color: white;
+}
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: white;
+}
